@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  background: #023e8a;
+  color: #fafafa;
+  border-radius: 10px;
+}
+
+.right {
+  width: 100%;
+  background: #f5f3f4;
+}
+
+.profile-name .name h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.description-name {
+  text-align: center;
+}
+
+.image {
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: 2px solid #fafafa;
+}
+
+.about-us {
+  text-align: center;
+}
+.about-description {
+  padding: 15px 10px;
+}
+.title {
+  font-size: 13px;
+  text-align: center;
+  background-color: #fafafa;
+  color: #002855;
+  border-radius: 15px;
+  margin: 0 100px;
+}
+
+.skills-total {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.hobbies-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  font-size: 13px;
+}
+.hobbies-s {
+  padding: 15px 0px;
+}
+
+.all {
+  margin: 15px 0;
+}
+
+.language-description {
+  padding: 15px 0;
+  text-align: center;
+}
+/* ------------------------------------------------------------- */
+.right {
+  text-align: center;
+}
+/* section1 */
+/* education */
+.section {
+  border-bottom: 4px solid black;
+  margin: 20px 10px 20px;
+}
+
+.education-title,
+.education-description {
+  padding: 7.5px;
+}
+
+.section h1 {
+  width: 200px;
+  margin: auto;
+  background-color: #edf2fb;
+  border-left: 10px solid #023e8a;
+  border-radius: 7px;
+}
+/* finish education */
+/* experience */
+
+.experience-description {
+  padding: 50px 0;
+  font-size: 20px;
+}
+
+/* Contact */
+
+.contact-total .fa {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-total {
+  padding: 50px 0;
+}
+
+.contact-total .fa {
+  font-size: 22px;
+  padding: 5px 0;
+}
